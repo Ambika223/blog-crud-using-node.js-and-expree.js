@@ -5,7 +5,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node assets/js/server.js",
-    "dev": "nodemon assets/js/server.js"
+    "dev": "nodemon assets/js/server.js",
+    "dev:inspect": "nodemon --inspect=9229 assets/js/server.js",
+    "debug": "nodemon --inspect-brk=127.0.0.1:9229 assets/js/server.js"
   },
   "keywords": [],
   "author": "",
